@@ -13,7 +13,11 @@ Project developed with the aim of training and developing new skills in the Fron
 
 ## Screenshots
 
-![Print at application](/images/App-Screenshot.png "Screenshot at application")
+// ![Print at application](/images/App-Screenshot.png "Screenshot at application")
+
+ <div>
+ <img src='/images/App-Screenshot.png'/>
+ </div
 
 ---------------------------------------------------------------------------------
 ![Print at twilo](/images/Twilo-Messages.jpg "Screenshot at twilo")
