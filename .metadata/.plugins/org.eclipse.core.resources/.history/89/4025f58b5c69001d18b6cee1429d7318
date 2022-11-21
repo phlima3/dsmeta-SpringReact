@@ -1,0 +1,5 @@
+package com.dsmetaph.dsmeta.repositories;
+
+public interface SaleRepository {
+
+}
