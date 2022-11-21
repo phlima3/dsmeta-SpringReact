@@ -3,7 +3,8 @@ import "./styles.css";
 
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 export const SalesCard = () => {
   const min = new Date(new Date().setDate(new Date().getDate() - 365));
@@ -11,6 +12,12 @@ export const SalesCard = () => {
 
   const [minDate, setMinDate] = useState(min);
   const [maxDate, setMaxDate] = useState(max);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:8080/sales?minDate=2021-11-01&maxDate=2021-12-31")
+      .then((response) => console.log(response.data));
+  }, []);
 
   return (
     <div className="dsmeta-card">
