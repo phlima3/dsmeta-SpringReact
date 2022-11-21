@@ -15,7 +15,7 @@ Project developed with the aim of training and developing new skills in the Fron
 
 // ![Print at application](/images/App-Screenshot.png "Screenshot at application")
 
- <div>
+ <div style='max-with: 200px'>
  <img src='/images/App-Screenshot.png'/>
  </div
 
