@@ -3,7 +3,7 @@ import "./styles.css";
 
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { useState } from "react";
+import React, { useState } from "react";
 
 export const SalesCard = () => {
   const min = new Date(new Date().setDate(new Date().getDate() - 365));
