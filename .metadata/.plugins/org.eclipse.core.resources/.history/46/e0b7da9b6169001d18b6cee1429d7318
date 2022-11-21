@@ -1,0 +1,5 @@
+package com.dsmetaph.dsmeta.services;
+
+public class SmsService {
+
+}
