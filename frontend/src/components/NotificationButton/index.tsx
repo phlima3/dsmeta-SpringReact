@@ -11,7 +11,7 @@ type Props = {
 export const NotificationButton = ({ saleId }: Props) => {
   function handleClick(id: number) {
     axios
-      .get(`${BASE_URL}/sales/${id}/notification`)
+      .get(`https://dsmeta-phlima.herokuapp.com/sales/${id}/notification`)
       .then(() => {
         toast.success("SMS enviado com sucesso!");
       })

@@ -22,7 +22,9 @@ export const SalesCard = () => {
     const dmax = maxDate.toISOString().slice(0, 10);
 
     axios
-      .get(`${BASE_URL}/sales?minDate=${dmin}&maxDate=${dmax}`)
+      .get(
+        `https://dsmeta-phlima.herokuapp.com/sales?minDate=${dmin}&maxDate=${dmax}`
+      )
       .then((response) => setSales(response.data.content));
   }, [minDate, maxDate]);
 
