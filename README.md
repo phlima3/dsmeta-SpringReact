@@ -15,10 +15,13 @@ Project developed with the aim of training and developing new skills in the Fron
 
  <div>
  <img src='/images/App-Screenshot.png'/ style='width: 100%'>
- </div
+ </div>
 
 ---------------------------------------------------------------------------------
-![Print at twilo](/images/Twilo-Messages.jpg "Screenshot at twilo")
+<div>
+ <img src='/images/Twilo-Messages.jpg '/ style='width: 50%'>
+ </div>
+
 
 
 
